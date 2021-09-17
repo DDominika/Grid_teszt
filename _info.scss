@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'mixin';
+
+/*Info*/
+.info{
+   @include Prop();
+   @include GridBoxInfo();
+    padding: 3rem;
+    .btn{
+        @include Button();
+    }
+    img{
+        max-width: 100%;
+    }
+}

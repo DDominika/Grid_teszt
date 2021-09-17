@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'mixin';
+
+/*Boxes*/
+.boxes{
+   @include GridBox();
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    .box{
+       @include Prop();
+       text-align: center;
+        padding: 1.5rem 2rem;
+    }
+}

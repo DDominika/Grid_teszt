@@ -1,0 +1,19 @@
+@import 'boxes';
+@import 'info';
+@import 'portfolio';
+@import 'variables';
+@import 'mixin';
+@import 'topcontainer';
+@import 'wrapper';
+@import 'footer';
+
+html{
+    box-sizing: border-box;
+    font-family: $fontfamily;
+    color: $dark;
+}
+body{
+    background-color: $bgcolor;
+    margin: 30px 50px;
+    line-height: 1.4;
+}

@@ -1,0 +1,42 @@
+@import 'variables';
+
+@mixin GridBox {
+    display: grid;
+    grid-gap: 20px;
+}
+@mixin Prop {
+    background: $primary;
+    box-shadow: $shadow;
+}
+@mixin GridBoxInfo {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+@mixin BgShowcase {
+    background: url(img/pic1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@mixin FlexShowcase {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+@mixin Proph1{
+    font-size: 4rem;
+    color: $light;
+}
+@mixin GridTopBox{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+@mixin Button{
+    background: $dark;
+    color: $light;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
